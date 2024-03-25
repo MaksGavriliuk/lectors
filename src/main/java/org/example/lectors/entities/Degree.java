@@ -33,7 +33,7 @@ public class Degree {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "degree", nullable = false)
+    @Column(name = "name")
     private String name;
 
     @JsonIgnore
